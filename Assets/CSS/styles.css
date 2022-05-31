@@ -1,17 +1,44 @@
-.head {
-    background-color: tan;
+.header {
+    background-color: navajowhite;
+    margin-top: 0%;
+    padding: 0%;
+    margin: 0
 }
 
 .topnav {
     color: teal;
     text-align: center;
+    margin: 0%;
 }
 
 .body {
-    background-color: navajowhite;
+    background-color: tan;
+    padding: 0%;
+    margin: 0%;
 }
 
 .h1 {
+    margin-top:0;
     text-align: center;
     color: teal;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.h3 {
+    color: teal;
+    font-weight: 300;
+}
+
+.hr {
+    border-top: 10px solid teal;
+    color: teal;
+    margin: 0%;
+    padding: 0%;
+}
+
+.img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
