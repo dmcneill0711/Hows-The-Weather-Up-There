@@ -8,9 +8,34 @@
     <meta charset="UTF-8">
     <title>Analysis</title>
     <link rel="stylesheet" type="text/css" href="../Assets/CSS/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body class="body">
+
+    <ul class="ul">
+
+        <div class="sidenav">
+          <br>
+          <p class="p">
+            Click On Any Graph To Go To The Related Page. 
+          </p>
+          <br>
+          <li><a href="../Visualizations/Temperature.html">
+            <img class="img_3" src="../assets/images/LatVSTemp.png" alt="Temperature Map" float="right"></a></li>
+          <br>
+          <li><a href="../Visualizations/Humidity.html">
+            <img class="img_3" src="../assets/images/LatVSHum.png" alt="Humidity Map" float="right"></a></li>
+          <br>
+          <li><a href="../Visualizations/Wind.html">
+            <img class="img_3" src="../assets/images/LatVSWind.png" alt="Wind Map" float="right"></a></li>
+          <br>
+          <li><a href="../Visualizations/Cloud.html">
+            <img class="img_3" src="../assets/images/LatVSClouds.png" alt="Cloud Map" float="right"></a></li>
+          <br>
+        </div>
+    
+    </ul>
 
     <section>
 
@@ -39,7 +64,66 @@
 
     <br>
 
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-3">
+                <a target="_blank" href="../Assets/Images/LatVSTemp.png">
+                    <img class="img_2" src="../Assets/Images/LatVSTemp.png" alt="Temperature Map" class="rounded">
+                </a>
+                <p>
+                    
+                </p>
+            </div>
+            <div class="col-md-3">
+                <a target="_blank" href="../Assets/Images/LatVSHum.png">
+                    <img class="img_2" src="../Assets/Images/LatVSHum.png" alt="Humidity Map">
+                </a>
+                <p>
+                    
+                </p>
+            </div>
+            <div class="col-md-3">
+                <a target="_blank" href="../Assets/Images/LatVSWind.png">
+                    <img class="img_2" src="../Assets/Images/LatVSWind.png" alt="Wind Map">
+                </a>
+                <p>
+
+                </p>
+            </div>            
+            <div class="col-md-3">
+                <a target="_blank" href="../Assets/Images/LatVSClouds.png">
+                    <img class="img_2" src="../Assets/Images/LatVSClouds.png" alt="Cloud Map">
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class="p_para">
+                        In conclusion, the latidude of a city only truly impacts that city's temperature. The closer a city is to The 
+                    Equator (0), the higher its overall temperature is. As we observe the cities that are located further away from the 
+                    equator, and further into either the Northern or Southern hemispheres, the temperatures start to drop, creating that 
+                    bell curve on the graph.
+                </p>
+                <p class="p_para"> 
+                        In terms of humidity, cloudiness, and windiness, there were other main factors that came into play. For 
+                    example, when it comes to humidity, a city is more likely to experience highter levels if it is located on/ 
+                    near a large body/ multiple bodies of water. If the water is not there, the humidity levels are unable to rise beyond
+                    a certain point. The role that water plays is much more important than that city's latitude. The same goes for a 
+                    city's cloudiness and windiness. Since there was very little correlation between latitude and the recorded attributes 
+                    on all three of these graphs, we must look for other variables that could be affecting them. 
+                </p>
+            </div>
+        </div>
+
+    </div>
+
     </section>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
