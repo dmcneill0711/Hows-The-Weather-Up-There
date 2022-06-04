@@ -12,17 +12,16 @@
 }
 
 .sidenav {
-    background-color: teal;
-    float:right; 
+    background-color: rgb(9, 153, 172);
+    float: right; 
     width:150px; 
     margin: 0%;
     padding: 0%;
-    margin-bottom: -2000px;
-    padding-bottom: 5000px;
+    padding-bottom: 300px;
 }
 
 .topnav {
-    color: teal;
+    color: rgb(9, 153, 172);
     text-align: center;
     margin: 0%;
 }
@@ -34,6 +33,7 @@
 
 .body {
     background-color: tan;
+    height:100%;
     padding: 0%;
     margin: 0%;
 }
@@ -41,34 +41,40 @@
 .h1 {
     margin-top:0;
     text-align: center;
-    color: teal;
+    color: rgb(9, 153, 172);
     font-style: bold;
     font-weight: 800;
 }
 
 .h2 {
-    color: teal;
+    color: rgb(9, 153, 172);
     font-weight: 500;
     text-align: center;
     font-style: italic;
 }
 
 .h4 {
-    color: teal;
+    color: rgb(9, 153, 172);
     text-align: center;
     font-weight: 100;
 }
 
+.h5 {
+    color: rgb(9, 153, 172);
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+}
 .hr {
-    border-top: 10px solid teal;
-    color: teal;
+    border-top: 10px solid rgb(9, 153, 172);
+    color: rgb(9, 153, 172);
     margin: 0%;
     padding: 0%;
 }
 
 .em {
     text-align: center;
-    color: teal;
+    color: rgb(9, 153, 172);
 }
 
 .strong {
@@ -90,7 +96,6 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border-radius: rounded;
 }
       
 .img_3 {
@@ -103,7 +108,7 @@
 }
 
 .p_para {
-    color: teal;
+    color: rgb(9, 153, 172);
     text-align: left;
     text-indent: 30px;
 }
